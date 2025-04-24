@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Le Coran Authentique</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Le Coran Authentique</h1>
+    <nav>
+      <a href="#boutique">Boutique</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Le Coran pour tous</h2>
+    <p>Découvrez notre collection authentique et élégante</p>
+  </section>
+
+  <section id="boutique">
+    <h2>Nos Corans</h2>
+    <div class="produits">
+      <div class="produit">
+        <img src="coran1.jpg" alt="Coran Arabe">
+        <h3>Coran en Arabe</h3>
+        <p>15€</p>
+        <button onclick="ajouterAuPanier('Coran en Arabe', 15)">Ajouter</button>
+      </div>
+      <div class="produit">
+        <img src="coran2.jpg" alt="Coran bilingue">
+        <h3>Coran Arabe-Français</h3>
+        <p>20€</p>
+        <button onclick="ajouterAuPanier('Coran Arabe-Français', 20)">Ajouter</button>
+      </div>
+      <div class="produit">
+        <img src="coran3.jpg" alt="Coran de luxe">
+        <h3>Coran de Luxe</h3>
+        <p>35€</p>
+        <button onclick="ajouterAuPanier('Coran de Luxe', 35)">Ajouter</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="panier">
+    <h2>Votre Panier</h2>
+    <ul id="liste-panier"></ul>
+    <p>Total : <span id="total">0</span>€</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email : contact@lecoranauthentique.com</p>
+    <p>WhatsApp : +33 6 12 34 56 78</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Le Coran Authentique</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
