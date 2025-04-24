@@ -1,0 +1,47 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f7f7f7;
+  color: #333;
+}
+header {
+  background: #006633;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+nav a {
+  color: white;
+  margin: 0 1em;
+  text-decoration: none;
+}
+.hero {
+  background: #e6ffe6;
+  padding: 2em;
+  text-align: center;
+}
+.produits {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  flex-wrap: wrap;
+  padding: 2em;
+}
+.produit {
+  background: white;
+  border: 1px solid #ccc;
+  padding: 1em;
+  text-align: center;
+  width: 200px;
+}
+.produit img {
+  width: 100%;
+  height: auto;
+}
+footer {
+  background: #006633;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
